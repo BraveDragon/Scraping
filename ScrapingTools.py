@@ -2,7 +2,6 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-import time
 
 def Extract_With_CSSselecter(URL,CSSselecter):
     """スクレイピングしてCSSセレクタを条件に抽出"""
